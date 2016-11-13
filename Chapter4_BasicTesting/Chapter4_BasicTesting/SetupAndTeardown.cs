@@ -15,7 +15,7 @@ namespace Chapter4_BasicTesting
         [OneTimeTearDown]
         public void OneTimeTearDown()
         {
-            Console.WriteLine("This runs once after all of the testx in this test fixgure");
+            Console.WriteLine("This runs once after all of the testx in this test fixture");
         }
 
         [SetUp]
