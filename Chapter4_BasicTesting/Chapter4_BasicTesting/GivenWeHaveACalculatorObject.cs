@@ -23,5 +23,12 @@ namespace Chapter4_BasicTesting
             var exception = Assert.Catch(() => Sut.Add(int.MaxValue, 1));
             Assert.That(exception, Is.TypeOf<OverflowException>());
         }
+
+        [Test]
+        public void AddingNegativeOneToMinValueThrowAnException()
+        {
+            var exception = Assert.Catch(() => Sut.Add(int.MinValue, -1));
+            Assert.That(exception, Is.TypeOf<OverflowException>());
+        }
     }
 }
