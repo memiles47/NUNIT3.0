@@ -6,6 +6,7 @@ namespace Chapter4_BasicTesting
     [TestFixture]
     internal class GivenWeHaveACalculatorObject
     {
+        // Note the book code to spot the differences
         Calculator Sut { get; } = new Calculator();
 
         [Test]
