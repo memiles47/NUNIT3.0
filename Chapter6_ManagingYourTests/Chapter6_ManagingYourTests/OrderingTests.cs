@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NUnit.Framework;
 
 namespace Chapter6_ManagingYourTests
@@ -7,7 +8,7 @@ namespace Chapter6_ManagingYourTests
 
     public class OrderingTests
     {
-        public static IEquatable<TestCaseData> MainTests
+        public static IEnumerable<TestCaseData> MainTests
         {
             get
             {
