@@ -8,7 +8,6 @@ namespace Chapter6_ManagingYourTests
 
     public class OrderingTests
     {
-        // Each test will happen in the order of the TestCaseData (I believe)
         public static IEnumerable<TestCaseData> MainTests
         {
             get
@@ -34,6 +33,13 @@ namespace Chapter6_ManagingYourTests
                 }
                 ));
             }
+        }
+
+        [Test]
+        [TestCaseSource(nameof(MainTests))]
+        public void TestRunner(Action func)
+        {
+            func();
         }
     }
 }
