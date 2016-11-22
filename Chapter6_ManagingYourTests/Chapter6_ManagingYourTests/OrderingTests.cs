@@ -7,6 +7,7 @@ namespace Chapter6_ManagingYourTests
     [TestFixture]
 
     public class OrderingTests
+        // I will need to comment this testing code, right now it does not make much sense
     {
         public static IEnumerable<TestCaseData> MainTests
         {
