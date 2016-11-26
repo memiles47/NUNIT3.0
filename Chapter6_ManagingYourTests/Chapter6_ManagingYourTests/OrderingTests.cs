@@ -34,5 +34,12 @@ namespace Chapter6_ManagingYourTests
                 ));
             }
         }
+
+        [Test]
+        [TestCaseSource(nameof(MainTests))]
+        public void TestRunner(Action func)
+        {
+            func();
+        }
     }
 }
