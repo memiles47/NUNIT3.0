@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
+// At any glance this doesn't make much sense.
 namespace Chapter6_ManagingYourTests
 {
     [TestFixture]
