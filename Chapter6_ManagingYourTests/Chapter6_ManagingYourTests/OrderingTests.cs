@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-// At any glance this doesn't make much sense.
 // I'll just have to understand that I don't understand this
 namespace Chapter6_ManagingYourTests
 {
