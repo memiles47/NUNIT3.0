@@ -8,7 +8,6 @@ namespace Chapter6_ManagingYourTests
 
     public class OrderingTests
     {
-        // The actual workings of these tests are hard to understand. I need to think about them.
         public static IEnumerable<TestCaseData> MainTests
         {
             get
