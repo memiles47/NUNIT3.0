@@ -4,7 +4,6 @@ using NUnit.Framework;
 
 namespace Chapter6_ManagingYourTests
 {
-    // Only to keep things moving here
     [TestFixture]
 
     public class OrderingTests
