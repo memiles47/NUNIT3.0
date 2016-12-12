@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace Chapter6_ManagingYourTests
+namespace Chapter6_ManagingYourTests // must keep up
 {
     [TestFixture]
 
