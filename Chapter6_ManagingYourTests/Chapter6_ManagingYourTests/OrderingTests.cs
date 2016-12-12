@@ -10,6 +10,7 @@ namespace Chapter6_ManagingYourTests
     {
         public static IEnumerable<TestCaseData> MainTests
         {
+            //testing
             get
             {
                 yield return new TestCaseData(new Action(() =>
