@@ -10,7 +10,7 @@ namespace Chapter6_ManagingYourTests // must keep up
     {
         public static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 2
+            //testing Day 3
             get
             {
                 yield return new TestCaseData(new Action(() =>
