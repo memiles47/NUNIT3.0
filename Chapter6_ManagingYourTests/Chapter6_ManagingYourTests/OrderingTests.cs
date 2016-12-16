@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace Chapter6_ManagingYourTests // must keep up
+namespace Chapter6_ManagingYourTests
 {
+    // Test Number 4
     [TestFixture]
 
     public class OrderingTests
