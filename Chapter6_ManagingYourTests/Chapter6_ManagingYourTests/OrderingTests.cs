@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Chapter6_ManagingYourTests
 {
-    // Test Number 4
+    // Test Number 5
     [TestFixture]
 
     public class OrderingTests
