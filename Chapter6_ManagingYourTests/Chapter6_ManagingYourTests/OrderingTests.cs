@@ -10,7 +10,7 @@ namespace Chapter6_ManagingYourTests
     {
         public static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 6
+            //testing Day 7
             get
             {
                 yield return new TestCaseData(new Action(() =>
