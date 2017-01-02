@@ -10,7 +10,7 @@ namespace Chapter6_ManagingYourTests
     {
         public static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 11 then taking it easy for the rest of the year
+            //testing Day 12 the first day of the first week of the new year 2017
             get
             {
                 yield return new TestCaseData(new Action(() =>
