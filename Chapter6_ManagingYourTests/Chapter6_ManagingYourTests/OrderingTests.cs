@@ -11,7 +11,8 @@ namespace Chapter6_ManagingYourTests
         public static IEnumerable<TestCaseData> MainTests
         {
             //testing Day 15 the first day of the first week of work for the new year
-            //Peloton arrives today
+            //Peloton arrives today.
+            //Peloton was delayed because of weather.
             get
             {
                 yield return new TestCaseData(new Action(() =>
