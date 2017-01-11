@@ -12,6 +12,7 @@ namespace Chapter6_ManagingYourTests
         {
             //testing Day 15 the first day of the first week of work for the new year
             //Peloton arrives today
+            //Saddle was very unconfortable so I purshased a large padded cover and padded underwear.
             get
             {
                 yield return new TestCaseData(new Action(() =>
