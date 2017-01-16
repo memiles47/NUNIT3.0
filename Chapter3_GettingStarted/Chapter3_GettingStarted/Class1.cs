@@ -9,7 +9,6 @@ namespace Chapter3_GettingStarted
         [Test]
         public void MyFirstTestMethod()
         {
-            //Test code here
             Console.WriteLine("Inside MyFirstTestMethod");
         }
     }
