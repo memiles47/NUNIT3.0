@@ -10,10 +10,7 @@ namespace Chapter6_ManagingYourTests
     {
         public static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 25
-            //Bike seat came yesterday, padded under as well.
-            //Subscription was set up and I can ride this afternoon
-            //I rode the grand tetons for 15 minutes. Hard.....
+            //testing Day 30
             get
             {
                 yield return new TestCaseData(new Action(() =>
