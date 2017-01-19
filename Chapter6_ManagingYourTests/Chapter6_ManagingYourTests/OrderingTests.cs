@@ -11,7 +11,7 @@ namespace Chapter6_ManagingYourTests
         public static IEnumerable<TestCaseData> MainTests
         {
             //testing Day 31
-            //First morning Peloton workout.
+            //Second morning Peloton workout.
             get
             {
                 yield return new TestCaseData(new Action(() =>
