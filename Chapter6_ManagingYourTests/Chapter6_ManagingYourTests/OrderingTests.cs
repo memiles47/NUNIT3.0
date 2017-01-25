@@ -10,8 +10,8 @@ namespace Chapter6_ManagingYourTests
     {
         public static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 32
-            //Couldn't morning Peloton again.... hard to do with bowel problems
+            //testing Day 38
+            //Couldn't morning Peloton again.... getting back to feeling better
             get
             {
                 yield return new TestCaseData(new Action(() =>
