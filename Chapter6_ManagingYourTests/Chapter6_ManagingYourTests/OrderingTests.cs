@@ -12,7 +12,6 @@ namespace Chapter6_ManagingYourTests
         {
             //testing Day 38
             //Couldn't morning Peloton again.... getting back to feeling better
-            //Over slept this morning
             get
             {
                 yield return new TestCaseData(new Action(() =>
