@@ -8,9 +8,10 @@ namespace Chapter6_ManagingYourTests
 
     public class OrderingTests
     {
-        public static IEnumerable<TestCaseData> MainTests
+        private static IEnumerable<TestCaseData> MainTests
         {
             //testing Day 55
+            //Getting Angies phone set up again.
             get
             {
                 yield return new TestCaseData(new Action(() =>
