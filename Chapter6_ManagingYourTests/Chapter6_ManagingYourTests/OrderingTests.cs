@@ -10,8 +10,9 @@ namespace Chapter6_ManagingYourTests
     {
         private static IEnumerable<TestCaseData> MainTests
         {
-            //testing Day 55
-            //Getting Angies phone set up again.
+            //testing Day 56
+            //She ended up getting a smart watch. This also means I can talk with 
+            //her whenever I Want
             get
             {
                 yield return new TestCaseData(new Action(() =>
