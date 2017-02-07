@@ -13,6 +13,7 @@ namespace Chapter6_ManagingYourTests
             //testing Day 56
             //She ended up getting a smart watch. This also means I can talk with 
             //her whenever I Want
+            //Now she is pissed, i know i didnt do anything
             get
             {
                 yield return new TestCaseData(new Action(() =>
