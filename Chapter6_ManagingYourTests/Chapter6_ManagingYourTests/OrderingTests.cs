@@ -12,8 +12,7 @@ namespace Chapter6_ManagingYourTests
         {
             //I am truly glad Angie and I are talking again
             //but I have trust issues....
-            //Siva let me know he will tell me where he is going
-            //next week.
+            //Happy Birthday Angie
             get
             {
                 yield return new TestCaseData(new Action(() =>
