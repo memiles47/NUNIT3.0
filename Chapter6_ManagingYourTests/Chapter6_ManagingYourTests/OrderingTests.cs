@@ -15,6 +15,8 @@ namespace Chapter6_ManagingYourTests
             //Happy Birthday Angie
             //Very rough weekend..... Things willl get better
             //I am constantly sick at my stomach right now.
+            //Yesterday was valentines day. I hope Angie had a good time
+            //doing what she wanted.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
