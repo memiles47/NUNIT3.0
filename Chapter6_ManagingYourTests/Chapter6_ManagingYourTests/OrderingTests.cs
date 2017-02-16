@@ -17,6 +17,8 @@ namespace Chapter6_ManagingYourTests
             //I am constantly sick at my stomach right now.
             //Yesterday was valentines day. I hope Angie had a good time
             //doing what she wanted.
+            //She asked me to loan Andy 1500 until he gets his taxes back
+            //I'll do it but not sure how to take that
             {
                 yield return new TestCaseData(new Action(() =>
                     {
