@@ -19,6 +19,8 @@ namespace Chapter6_ManagingYourTests
             //doing what she wanted.
             //She asked me to loan Andy 1500 until he gets his taxes back
             //I'll do it but not sure how to take that
+            //THe weeks work has been done and my attitude has changed
+            //I hope this weekend goes well.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
