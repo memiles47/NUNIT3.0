@@ -13,6 +13,8 @@ namespace Chapter6_ManagingYourTests
             //I had a great weekend
             //I hope Angie gets her PayPal card back soon. I don't
             //like her without that or a phone in case of emergencies.
+            //I told her next year we need to advertise her tax business
+            //and get her some business cards.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
