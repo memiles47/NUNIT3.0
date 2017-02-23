@@ -10,11 +10,9 @@ namespace Chapter6_ManagingYourTests
     {
         private static IEnumerable<TestCaseData> MainTests
         {
-            //I had a great weekend
-            //I hope Angie gets her PayPal card back soon. I don't
-            //like her without that or a phone in case of emergencies.
-            //I told her next year we need to advertise her tax business
-            //and get her some business cards.
+            //Angie went to bingo last night but
+            //she was not very happy last night.
+            //but she said... befor bed... Thank you babe.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
