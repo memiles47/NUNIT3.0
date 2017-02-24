@@ -13,6 +13,8 @@ namespace Chapter6_ManagingYourTests
             //Angie went to bingo last night but
             //she was not very happy last night.
             //but she said... befor bed... Thank you babe.
+            //Yesterday she did not talk to me at all until
+            //I got home. My mind will do it's thing no matter what.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
