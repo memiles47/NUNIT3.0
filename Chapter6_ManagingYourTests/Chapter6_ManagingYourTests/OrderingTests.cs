@@ -10,10 +10,8 @@ namespace Chapter6_ManagingYourTests
     {
         private static IEnumerable<TestCaseData> MainTests
         {
-            //I had a phone call from her during the weekend
-            //She needed 250 for a bed and then another 75
-            //for meds... she has insurance, why do I need to 
-            //pay for meds but that is ok.
+            //Last evening, Tuesday night was another fantastic
+            //turn of events.
             {
                 yield return new TestCaseData(new Action(() =>
                     {
