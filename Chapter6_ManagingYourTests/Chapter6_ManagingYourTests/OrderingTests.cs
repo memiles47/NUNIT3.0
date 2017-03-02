@@ -12,6 +12,11 @@ namespace Chapter6_ManagingYourTests
         {
             //Last evening, Tuesday night was another fantastic
             //turn of events.
+            //One day different and I do not talk to her all day
+            //She reads my messages but does not respond until
+            //around midnight with sorry it was a long night
+            //.... What happened ... I won't ask but I hope she
+            //explaines
             {
                 yield return new TestCaseData(new Action(() =>
                     {
