@@ -11,9 +11,7 @@ namespace Chapter6_ManagingYourTests
         private static IEnumerable<TestCaseData> MainTests
         {
             {
-                //Angie as been quiet lately I pray everything is
-                //ok between us.
-                //
+                //Angie is just being Angie I have decided.
                 yield return new TestCaseData(new Action(() =>
                     {
                         System.Threading.Thread.Sleep(5000);
