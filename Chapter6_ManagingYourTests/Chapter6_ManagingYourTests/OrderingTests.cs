@@ -11,11 +11,8 @@ namespace Chapter6_ManagingYourTests
         private static IEnumerable<TestCaseData> MainTests
         {
             {
-                //Angie is just being Angie I have decided.
-                //No word from her at all today.
+                //Angie wants a car now
 
-                //I may have found a bug in this new version of Visual Studio
-                //Not a deal breaker though
                 yield return new TestCaseData(new Action(() =>
                     {
                         System.Threading.Thread.Sleep(5000);
