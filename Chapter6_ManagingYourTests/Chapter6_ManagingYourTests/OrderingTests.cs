@@ -12,6 +12,9 @@ namespace Chapter6_ManagingYourTests
         {
             {
                 //Angie wants a car now
+                //Angie has the money to get the car now
+                //she also knows I won't be able to send her
+                //money for a while.
 
                 yield return new TestCaseData(new Action(() =>
                     {
